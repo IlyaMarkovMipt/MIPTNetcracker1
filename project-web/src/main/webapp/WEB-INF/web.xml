@@ -1,0 +1,9 @@
+<filter>
+    <filter-name>FilterName</filter-name>
+    <filter-class>FilterConnect</filter-class>
+    <filter-mapping>
+        <filter-name>FilterName</filter-name>
+        <url-pattern>test.jsp</url-pattern>
+    </filter-mapping>
+</filter>
+
