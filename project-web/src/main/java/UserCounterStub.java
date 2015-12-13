@@ -7,4 +7,14 @@ public class UserCounterStub implements UserCounter {
     public int getOnlineUsers() {
         return 15;
     }
+
+    @Override
+    public void incrementUsers() {
+
+    }
+
+    @Override
+    public void decrementUsers() {
+
+    }
 }

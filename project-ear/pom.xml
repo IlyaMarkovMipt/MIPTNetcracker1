@@ -62,7 +62,7 @@
                         </ejbModule>
                         <webModule>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>projrct-web</artifactId>
+                            <artifactId>project-web</artifactId>
                             <contextRoot>/</contextRoot>
                         </webModule>
                     </modules>

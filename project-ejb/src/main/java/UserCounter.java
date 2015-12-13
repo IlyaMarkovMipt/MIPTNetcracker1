@@ -7,4 +7,7 @@ import javax.ejb.Local;
 public interface UserCounter {
 
     int getOnlineUsers();
+    void incrementUsers();
+    void decrementUsers();
+
 }

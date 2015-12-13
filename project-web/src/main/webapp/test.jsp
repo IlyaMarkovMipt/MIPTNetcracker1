@@ -8,5 +8,5 @@
     <title>Test JSP</title>
 </head>
 <body>
-    <h1>Hello, there are ${userNumber} users on the server now</h1>
+    <h1>Hello, there are <%=request.getAttribute("userNumber")%> users on the server now</h1>
 </body>
